@@ -232,3 +232,16 @@ correta, de acordo com os dados inseridos no objeto.
 // Agora, apresente-se ;)
 ?
 ```
+
+> pessoa.apresentacao = function () {
+... return "Olá, eu sou o " + pessoa.nome + "tenho " + pessoa.idade + "ano" + pessoa.altura + "m" + "meu peso é" + pessoa.peso + "e, só hoje, eu ja caminhei" + pessoa.caminhouQuantosMetros + "metro";
+... if (pessoa.sexo == "feminino"){
+..... return "Olá, eu sou a " + pessoa.nome + "tenho " + pessoa.idade + "anos" + pessoa.altura + "m", "meu peso é" + pessoa.peso + "e, só hoje, eu ja caminhei" + pessoa.caminhouQuantosMetros + "metros";
+..... }
+... else if ( pessoa.idade === 1){
+..... return "Olá, eu sou o " + pessoa.nome + "tenho " + pessoa.idade + "ano" + pessoa.altura + "m" + "meu peso é" + pessoa.peso + "e, só hoje, eu ja caminhei" + pessoa.caminhouQuantosMetros + "metro";
+..... }
+... else if (caminhouQuantosMetros <= 1) {
+..... return "Olá, eu sou o " + pessoa.nome + "tenho " + pessoa.idade + "ano" + pessoa.altura + "m" + "meu peso é" + pessoa.peso + "e, só hoje, eu ja caminhei" + pessoa.caminhouQuantosMetros + "metro";
+..... }
+... }
